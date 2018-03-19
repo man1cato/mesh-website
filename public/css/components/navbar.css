@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #5A5D5A;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+.navbar .btn {
+  background-color: #FF3F00;
+  color: white;
+}
+
+.navbar .container {
+    justify-content: space-between;
+}
+
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:hover  {
+  background-color: #FF3F00;
+}

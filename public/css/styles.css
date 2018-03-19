@@ -1,0 +1,10 @@
+@import url('./base/base.css');
+/* @import url('base/settings.scss'); */
+@import url('./components/main-container.css');
+@import url('./components/panel.css');
+@import url('./components/card.css');
+@import url('./components/banner.css');
+@import url('./components/heading.css');
+@import url('./components/navbar.css');
+@import url('./components/description.css');
+@import url('./components/container.css');

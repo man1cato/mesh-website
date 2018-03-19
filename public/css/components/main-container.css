@@ -1,0 +1,17 @@
+.main-container {
+  height: 100vh;
+  min-width: 100%;
+  border: none;
+  margin: none;
+  padding: none;
+  display: flex;
+  align-items: stretch;
+}
+
+
+@media(max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

@@ -1,0 +1,48 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.heading h1 {
+  font-size: 6rem;
+  padding-bottom: 3rem;
+}
+
+.heading h4 {
+  font-size: 3.5rem;
+}
+
+#business {
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/clock-pointers.jpg");
+}
+
+#approach {
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/post-its.jpg");
+}
+
+#about {
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/mesh-net.png");
+}
+
+@media (max-width: 768px) {
+  .heading {
+    height: 50vh;
+  }
+  .heading h1 {
+    font-size: 4rem;
+  }
+  .heading h4 {
+    font-size: 2.5rem;
+  }
+}
+
+/* @media (max-width: 576px) {
+
+} */

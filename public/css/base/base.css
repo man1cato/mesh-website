@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #1A1D20;
+    font-family: Montserrat, 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+  background-color: #FF3F00;
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+/* Text */
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: #ff3f00;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* Components */
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}
+
+/* Screen sizes */
+@media(max-width: 992px) {
+  h2 {
+    font-size: 2.7rem;
+  }
+  h3 {
+    font-size: 2.3rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 768px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2.2rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
