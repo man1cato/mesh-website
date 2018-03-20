@@ -1,12 +1,15 @@
 .card {
-  padding: 35px 0;
+  /* padding: 35px 0;
   border: 2px solid #b5b5b5;
   border: 0;
-  background-color: transparent;
-  width: 55%;
-  color: white;
+  width: 30%; */
+}
+
+.card img {
+
 }
 
 .card-body {
-  padding: 0;
+  /* padding: 0;
+  text-align: justify; */
 }

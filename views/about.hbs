@@ -1,108 +1,49 @@
-<!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Business Consulting Services</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/styles.css">
-      <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i,600i" rel="stylesheet">
+{{>navbar}}
 
-      <!-- <link rel="icon" type="image/png" href="/images/favicon.png"/> -->
-  </head>
+<!-- HEADING -->
+<div id="about" class="heading">
+    <h1>About</h1>
+    <!-- <h4>Something</h4>s -->
+</div>
 
-  <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container container__navbar">
-        <a class="navbar-brand" href="./home.html">
-          <img src="./images/mesh-logo.svg" alt="Mesh logo">
-        </a>
+<!-- CONTENT -->
+<div class="container container__description">
+  <div class="description">
+    <!-- <img src="./images/headshot.jpg" alt="headshot"> -->
+    <h3 class="description-title">Mission</h3>
+    <h4 style="text-align: center; font-size:3rem">Help small business owners be more effective.</h4>
+    <p>
+      At Mesh, we know the courage it takes to step out on your own and the challenge of doing something from nothing.
+      It can be intimidating and frightening. There are so many unknowns and the fear of failure is always looming in the
+      background. We understand this, which is why whenever we undertake a project with a client, whether it be something
+      small, like developing an email campaign, or something big, like developing a new product, we always take things one
+      step at a time.
+    </p>
+    <p>
+      Our methodology ensures that we account for every foreseeable factor and take deliberate and calculated
+      steps that will minimize risk and maximize the opportunities for success. We'll work with you every step of the way to
+      streamline your operations in order to accomplish your goals.
+    </p>
+  </div>
+</div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<h3 class="description-title">Values</h3>
+<div class="container container__about">
+  <div class="container__about-items">
+    <h4 class="container__about-items-title">Pursue Purpose</h4>
+    <p class="banner-text__approach">Do work that has a positive impact on the world. Avoid work that only has profit as a motive.</p>
+  </div>
 
-        <div class="collapse navbar-collapse text-right" id="navbarToggler">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item ml-3 mb-1">
-              <a class=" nav-item nav-link" href="./approach.html">Approach</a>
-            </li>
-            <li class="nav-item dropdown ml-3 mb-1">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Services
-              </a>
-              <div class="dropdown-menu mb-1 bg-dark border-light" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item active" href="./business-consulting.html">Business Consulting</a>
-                <a class="dropdown-item text-light" href="./product-development.html">Product Development</a>
-                <a class="dropdown-item text-light" href="./brand-identity.html">Brand Identity</a>
-              </div>
-            </li>
-            <li class="nav-item ml-3 mb-1">
-              <a class=" nav-item nav-link" href="./about.html">About</a>
-            </li>
-          </ul>
-          <button class="btn btn-lg ml-3 mb-1" type="submit">Let's Mesh</button>
-        </div>
-      </div>
-    </nav>
+  <div class="container__about-items">
+    <h4 class="container__about-items-title">Be Fair & Honest</h4>
+    <p class="banner-text__approach">Always do right by the client. Work together to ensure that all sides are treated fairly.</p>
+  </div>
 
-    <!-- HEADING -->
-    <div id="about" class="heading">
-        <h1>About</h1>
-        <!-- <h4>Something</h4>s -->
-    </div>
+  <div class="container__about-items">
+    <h4 class="container__about-items-title">Embrace Learning</h4>
+    <p class="banner-text__approach">Every challenge is an opportunity for growth. Embrace failure and learn from it.</p>
+  </div>
 
-    <!-- CONTENT -->
-    <div class="container container__description">
-      <div class="description">
-        <!-- <img src="./images/headshot.jpg" alt="headshot"> -->
-        <h3 class="description-title">Mission</h3>
-        <h4 style="text-align: center; font-size:3rem">Help small business owners be more effective.</h4>
-        <p>
-          At Mesh, we know the courage it takes to step out on your own and the challenge of doing something from nothing.
-          It can be intimidating and frightening. There are so many unknowns and the fear of failure is always looming in the
-          background. We understand this, which is why whenever we undertake a project with a client, whether it be something
-          small, like developing an email campaign, or something big, like developing a new product, we always take things one
-          step at a time.
-        </p>
-        <p>
-          Our methodology ensures that we account for every foreseeable factor and take deliberate and calculated
-          steps that will minimize risk and maximize the opportunities for success. We'll work with you every step of the way to
-          streamline your operations in order to accomplish your goals.
-        </p>
-      </div>
-    </div>
+</div>
 
-    <h3 class="description-title">Values</h3>
-    <div class="container container__about">
-      <div class="container__about-items">
-        <h4 class="container__about-items-title">Pursue Purpose</h4>
-        <p class="banner-text__approach">Do work that has a positive impact on the world. Avoid work that only has profit as a motive.</p>
-      </div>
-
-      <div class="container__about-items">
-        <h4 class="container__about-items-title">Be Fair & Honest</h4>
-        <p class="banner-text__approach">Always do right by the client. Work together to ensure that all sides are treated fairly.</p>
-      </div>
-
-      <div class="container__about-items">
-        <h4 class="container__about-items-title">Embrace Learning</h4>
-        <p class="banner-text__approach">Every challenge is an opportunity for growth. Embrace failure and learn from it.</p>
-      </div>
-
-    </div>
-
-    <footer>
-      <div class="container">
-        Footer links
-      </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
+{{>footer}}

@@ -2,7 +2,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 33vw;
+  width: 33.3vw;
   margin: 0;
   padding: 2rem;
   display: flex;
@@ -13,7 +13,6 @@
 }
 
 .panel-left {
-  /* flex: 1 1 33%; */
   background-color: #3E464D;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/gears-outline-orange.png");
 }
@@ -25,7 +24,6 @@
 }
 
 .panel-right {
-  /* flex: 0 1 33%; */
   background-color: #3E464D;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/robot-outline-orange.png");
 }
@@ -34,17 +32,10 @@
 #logo {
   position: absolute;
   right: calc(50vw - 65px);
-  /* right: 40px; */
   top: 2rem;
   width: 130px;
 }
 
-#logo-white {
-  position: absolute;
-  left: 35px;
-  top: 30px;
-  width: 130px;
-}
 
 @media(max-width: 768px) {
   .panel {
@@ -56,11 +47,6 @@
   }
   #logo {
     right: 2rem;
-    width: 90px;
-  }
-  #logo-white {
-    right: 30px;
-    top: 30px;
     width: 90px;
   }
 }
