@@ -24,11 +24,17 @@
 }
 
 #brand {
-  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/clock-pointers.jpg");
+  background-image: linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.35)), url("../../images/bg-brand.png");
+  background-position: bottom center;
+}
+
+#product {
+  background-image: linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.35)), url("../../images/post-its.jpg");
 }
 
 #approach {
-  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/post-its.jpg");
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/notepad.jpg");
+  /* background-position: center bottom; */
 }
 
 #about {

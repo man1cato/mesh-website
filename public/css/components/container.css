@@ -15,6 +15,7 @@
   padding-bottom: 30px;
 }
 
+
 .container__approach {
   justify-content: center;
   align-items: flex-start;
@@ -28,10 +29,11 @@
 
 .container__about-items {
   display: flex;
+  justify-content: space-between;
 }
 .container__about-items-title {
-  width: 200px;
-  margin-right: 20px;
+  min-width: 150px;
+  margin-right: 2rem;
 }
 
 @media (min-width: 900px) {
@@ -50,5 +52,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+  }
+  .container__about-items {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .container__about-items-title {
+    min-width: 150px;
+    margin: 0;
   }
 }

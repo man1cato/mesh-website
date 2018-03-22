@@ -11,18 +11,17 @@ app.engine('hbs', hbs({
   extname: 'hbs',
   defaultLayout: 'layout',
   layoutsDir: __dirname + '/views/layouts/',
-  partialsDir: __dirname + '/views/partials/'
+  partialsDir: __dirname + '/views/partials/',
+  helpers: {
+    currentYear: () => { return new Date().getFullYear(); }
+  }
 }));
-// app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
 //MIDDLEWARE
 app.use(express.static(__dirname + '/public'));
 
-//HELPERS
-// hbs.registerHelper('getCurrentYear', () => {
-//   return new Date().getFullYear();
-// });
+
 
 //ENDPOINTS
 app.get('/', (req, res) => {
@@ -34,13 +33,13 @@ app.get('/', (req, res) => {
 
 app.get('/approach', (req, res) => {
   res.render('approach.hbs', {
-    pageTitle: 'Approach',
+    pageTitle: 'Approach'
   });
 });
 
 app.get('/about', (req, res) => {
   res.render('about.hbs', {
-    pageTitle: 'About Us',
+    pageTitle: 'About Us'
   });
 });
 
