@@ -1,5 +1,6 @@
 .navbar {
   background-color: #5A5D5A;
+  font-family: Montserrat,'Open Sans', sans-serif;
 }
 
 .navbar-brand img {
@@ -11,10 +12,33 @@
   color: white;
 }
 
-.navbar .container {
-    justify-content: space-between;
+.navbar-collapse {
+  padding-right: .5rem;
+}
+
+.dropdown-menu {
+  font-size: 1.2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 1px solid rgba(255,255,255,.5);
+}
+
+.dropdown-item {
+  color: rgba(255,255,255,.5);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .dropdown-item.active, .dropdown-item:active, .dropdown-item:hover  {
   background-color: #FF3F00;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .dropdown-menu {
+    text-align: right;
+  }
+  /* .nav-item {
+    margin-bottom: .5rem;
+  } */
 }

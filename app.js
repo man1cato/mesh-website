@@ -37,12 +37,6 @@ app.get('/approach', (req, res) => {
   });
 });
 
-app.get('/about', (req, res) => {
-  res.render('about.hbs', {
-    pageTitle: 'About Us'
-  });
-});
-
 app.get('/business-consulting', (req, res) => {
   res.render('business-consulting.hbs', {
     pageTitle: 'Business Consulting',
@@ -61,6 +55,18 @@ app.get('/product-development', (req, res) => {
   res.render('product-development.hbs', {
     pageTitle: 'Product Development',
     active3: 'active'
+  });
+});
+
+app.get('/about', (req, res) => {
+  res.render('about.hbs', {
+    pageTitle: 'About Us'
+  });
+});
+
+app.get('/contact', (req, res) => {
+  res.render('contact.hbs', {
+    pageTitle: "Contact Us"
   });
 });
 

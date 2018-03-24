@@ -8,7 +8,7 @@ html {
 
 body {
     color: #1A1D20;
-    font-family: Montserrat, 'Open Sans', sans-serif;
+    font-family: Roboto, 'Open Sans', sans-serif;
     font-size: 1.2rem;
     padding: 0;
     margin: 0;
@@ -23,18 +23,20 @@ footer {
 }
 
 /* Text */
-h1, h2 {
-  margin: 0;
+h1, h2, h3 {
+  font-family: Montserrat,'Open Sans', sans-serif;
 }
 
 h1 {
   font-size: 4rem;
   font-weight: 800;
+  margin: 0;
 }
 
 h2 {
   font-size: 3.5rem;
   color: #ff3f00;
+  margin: 0;
 }
 
 h3 {
@@ -55,6 +57,7 @@ h5 {
 
 p {
   font-size: 1.5rem;
+  font-weight: normal;
   text-align: justify;
 }
 

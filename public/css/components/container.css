@@ -4,6 +4,7 @@
 
 .container__navbar {
   justify-content: space-between;
+  align-items: center;
 }
 
 .container__description {
@@ -14,7 +15,6 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 
 .container__approach {
   justify-content: center;
@@ -36,9 +36,9 @@
   margin-right: 2rem;
 }
 
-@media (min-width: 900px) {
-  .container {
-    max-width: 900px;
+@media (min-width: 992px) {
+  .container__description, .container__about {
+    max-width: 850px;
   }
 }
 
