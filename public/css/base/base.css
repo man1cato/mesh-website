@@ -9,7 +9,7 @@ html {
 body {
     color: #1A1D20;
     font-family: Roboto, 'Open Sans', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 0;
     margin: 0;
 }
@@ -97,12 +97,12 @@ button:disabled {
     font-size: 2.5rem;
   }
   h3 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
   }
   h4 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }

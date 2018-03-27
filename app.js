@@ -33,40 +33,40 @@ app.get('/', (req, res) => {
 
 app.get('/approach', (req, res) => {
   res.render('approach.hbs', {
-    pageTitle: 'Approach'
+    pageTitle: 'Mesh | Approach'
   });
 });
 
 app.get('/business-consulting', (req, res) => {
   res.render('business-consulting.hbs', {
-    pageTitle: 'Business Consulting',
+    pageTitle: 'Mesh | Business Consulting',
     active1: 'active'
   });
 });
 
 app.get('/brand-identity', (req, res) => {
   res.render('brand-identity.hbs', {
-    pageTitle: 'Brand Identity',
+    pageTitle: 'Mesh | Brand Identity',
     active2: 'active'
   });
 });
 
 app.get('/product-development', (req, res) => {
   res.render('product-development.hbs', {
-    pageTitle: 'Product Development',
+    pageTitle: 'Mesh | Product Development',
     active3: 'active'
   });
 });
 
 app.get('/about', (req, res) => {
   res.render('about.hbs', {
-    pageTitle: 'About Us'
+    pageTitle: 'Mesh | About Us'
   });
 });
 
 app.get('/contact', (req, res) => {
   res.render('contact.hbs', {
-    pageTitle: "Contact Us"
+    pageTitle: "Mesh | Contact Us"
   });
 });
 

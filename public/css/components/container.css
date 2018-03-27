@@ -30,6 +30,7 @@
 .container__about-items {
   display: flex;
   justify-content: space-between;
+  margin-bottom: .75rem;
 }
 .container__about-items-title {
   min-width: 150px;

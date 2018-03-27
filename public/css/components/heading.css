@@ -41,9 +41,13 @@
   background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/mesh-net.png");
 }
 
+#contact {
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/gear-train.png");
+}
+
 @media (max-width: 768px) {
   .heading {
-    height: 50vh;
+    height: 30vh;
   }
   .heading h1 {
     font-size: 4rem;
