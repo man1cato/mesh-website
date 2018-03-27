@@ -5,25 +5,34 @@
   width: 33.3vw;
   margin: 0;
   padding: 2rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: white; */
+}
+.panel-box {
   display: flex;
+  height: 100%;
+  width: 100%;
   align-items: center;
   justify-content: space-around;
   text-align: center;
   color: white;
 }
 
-.panel-left {
+.panel__left {
   background-color: #3E464D;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/gears-outline-orange.png");
 }
 
-.panel-center {
+.panel__center {
   flex: 1 1 33%;
   background-color: #565F69;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/heart-outline-orange.png");
 }
 
-.panel-right {
+.panel__right {
   background-color: #3E464D;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/robot-outline-orange.png");
 }
