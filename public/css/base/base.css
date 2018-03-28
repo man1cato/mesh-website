@@ -15,11 +15,11 @@ body {
 }
 
 footer {
-  background-color: #FF3F00;
   color: white;
   height: 30px;
   display: flex;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 /* Text */

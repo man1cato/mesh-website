@@ -79,21 +79,21 @@ app.get('/business-consulting', (req, res) => {
       style: "banner__1",
       title: "Strategy",
       subtitle: "You can't grow without a guiding light.",
-      body: "Having a clear vision and knowing how to execute on it will make the difference between a company that just gets by, and one that is able to grow and prosper.",
+      body: "Having a clear vision and knowing how to execute on it will make the difference between a company that just gets by, and one that is able to grow and prosper. If you feel like you've lost your way, or perhaps it was never really clear where you were headed, we can help you get on the right path.",
       offerings: "Vision & Mission - Goals & Metrics - Roadmapping",
       image: "gear-tree-square.png"
     },{
       style: "banner__2",
       title: "Organization Design",
       subtitle: "Discover how culture impacts everything.",
-      body: "Most employees leave their jobs after only two years. Learn the strategies and practices that can ensure that you have a happy and productive workforce.",
+      body: "Most employees leave their jobs after only two years. This is usually due to companies not attending to their employees' needs. Learn the strategies and practices that can ensure that you have a happy and productive workforce.",
       offerings: "Values Codification - Agile Methodologies - Organizational Structure",
       image: "network-square.png"
     },{
       style: "banner__3",
       title: "Digital Transformation",
       subtitle: "Never deal with paperwork again.",
-      body: "You already have enough on your hands. Let us take the stress out of running your business by digitizing and automating your operations.",
+      body: "You already have enough on your hands. Let us take the stress out of running your business by digitizing and automating your operations so that you can focus on what is truly meaningful: realizing your vision.",
       offerings: "Process Optimization - Data Management - Software Integration",
       image: "webpage-square.png"
     }]
@@ -150,14 +150,14 @@ app.get('/product-development', (req, res) => {
       title: "Ideation & Refinement",
       subtitle: "Make a match.",
       body: "You won't get it right on the first try. The key is to learn, iterate, and adapt. By adopting lean and agile methodologies, we can guide you through the process of ideation, wireframing, feedback, and refinement, until you land on the solution that you can feel confident is worth building.",
-      offerings: "Design Thinking - Wireframing - Prototyping",
+      offerings: "Lean Development - Agile Methodology - Design Thinking - Wireframing",
       image: "refinement.png"
     },{
       style: "banner__3",
       title: "MVP Development",
       subtitle: "Make it real.",
       body: "Once you have a solid concept for a product or service, the next step is to build a Minimum Viable Product. That concept will be developed, tested, and refined until we have something that a customer is willing to pay for.",
-      offerings: "Lean Development - Agile Methodology - Full-Stack Development - CAD Design",
+      offerings: "Prototyping - Full-Stack Development - CAD Design",
       image: "bicycle.png"
     }]
   });

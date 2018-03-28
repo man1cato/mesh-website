@@ -21,6 +21,12 @@
   text-align: justify;
 }
 
+.banner-text {
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
 .banner-text__approach {
   flex: 1 1 auto;
 }
@@ -39,7 +45,6 @@
 @media (min-width: 769px) {
   .banner-body {
     width: 60%;
-    margin: 0 4rem 0 0;
   }
   .banner-img {
     margin-left: auto;
@@ -54,7 +59,6 @@
   }
   .banner-text {
     text-align: center;
-    margin-top: 20px;
   }
   .banner-img {
     max-width: 45%;
