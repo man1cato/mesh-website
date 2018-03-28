@@ -22,63 +22,25 @@
 </div>
 
 <!-- CONTENT -->
-<div class="banner banner__1">
-  <div class="container container__services">
-    <div class="banner-body">
-      <div class="banner-title">
-        <h3>Strategy</h3>
-        <h4>You can't grow without a guiding light.</h4>
+{{#each banners}}
+  {{#with this}}
+    <div class="banner {{style}}">
+      <div class="container container__services">
+        <div class="banner-body">
+          <div class="banner-title">
+            <h3>{{title}}</h3>
+            <h4>{{subtitle}}</h4>
+          </div>
+          <p>{{body}}</p>
+          <br>
+          <p>{{offerings}}</p>
+        </div>
+        <div class="banner-img">
+          <img src="./images/{{image}}">
+        </div>
       </div>
-        <p>
-          Having a clear vision and knowing how to execute on it will make the difference between
-          a company that just gets by, and one that is able to grow and prosper.
-        </p>
-        <br>
-        <p>Vision & Mission - Goals & Metrics - Roadmapping</p>
     </div>
-    <div class="banner-img">
-      <img src="./images/gear-tree-square.png" alt="tree">
-    </div>
-  </div>
-</div>
-
-<div class="banner banner__2">
-  <div class="container container__services">
-    <div class="banner-body">
-      <div class="banner-title">
-        <h3>Organization Design</h3>
-        <h4>Discover how culture impacts everything.</h4>
-      </div>
-        <p>
-          Most employees leave their jobs after only two years.
-          Learn the strategies and practices that can ensure that you have a happy and productive workforce.
-        </p>
-        <br>
-        <p>Values Codification - Agile Methodologies - Organizational Structure</p>
-    </div>
-    <div class="banner-img">
-      <img src="./images/network-square.png" alt="network">
-    </div>
-  </div>
-</div>
-
-<div class="banner banner__3">
-  <div class="container container__services">
-    <div class="banner-body">
-      <div class="banner-title">
-        <h3>Digital Transformation</h3>
-        <h4>Never deal with paperwork again.</h4>
-      </div>
-        <p>
-          You already have enough on your hands. Let us take the stress out of running your business by digitizing and automating your operations.
-        </p>
-        <br>
-        <p>Process Optimization - Data Management - Software Integration</p>
-    </div>
-    <div class="banner-img">
-      <img src="./images/webpage-square.png" alt="webpage">
-    </div>
-  </div>
-</div>
+  {{/with}}
+{{/each}}
 
 {{> footer}}

@@ -22,103 +22,28 @@
 
 <!-- CONTENT -->
 <div class="container" style="flex-wrap: wrap">
-
   <div class="row">
 
-    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-      <div class="card">
-        <div class="card-img-box">
-          <img class="card-img-top" src="/images/DPL-Logo.png" alt="DPL Logo">
+    {{#each cards}}
+      {{#with this}}
+        <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+          <div class="card">
+            <div class="card-img-box">
+              <img class="card-img-top" src="/images/{{image}}">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{title}}</h5>
+              <p class="card-text">{{body}}</p>
+              {{#if link}}
+                <a class="card-link" href={{link}} target="_blank">View Logo Guidelines</a>
+              {{/if}}
+            </div>
+          </div>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Deep Point Laboratories</h5>
-          <p class="card-text">
-            Cybersecurity firm and community where experts and academics can come together to share knowledge within the
-            industry. The design is meant to evoke feelings of intrigue, curiosity, contemplation, and knowledge.
-          </p>
-          <a class="card-link" href="https://drive.google.com/file/d/10tW2Mx9bVS_v570wI25om0kTzIoSTxb_/view" target="_blank">View Logo Guidelines</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-      <div class="card">
-        <div class="card-img-box">
-          <img class="card-img-top" src="/images/BTB-Logo.png" alt="BTB Logo">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Beyond The Book</h5>
-          <p class="card-text">
-            An educational company focused on providing test prep materials to medical professionals in the orthotics and prosthetics
-            industry. The logo represents both a hand and an open book - communicating the trade as well as the services provided.
-          </p>
-          <a class="card-link" href="https://drive.google.com/file/d/0B3bHUpUC0RGzU0pfUkNrempEeUk/view" target="_blank">View Logo Guidelines</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-      <div class="card">
-        <div class="card-img-box">
-          <img class="card-img-top" src="/images/FlexNut-Logo.png" alt="FlexNut Logo">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Flexible Nutrition</h5>
-          <p class="card-text">
-            Utilizing a visual pun, the design attempts to communicate the services offered -
-            nutritional coaching focused on flexible dieting.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-      <div class="card">
-        <div class="card-img-box">
-          <img class="card-img-top" src="/images/Hygeia-Logo.png" alt="Hygeia Logo">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Hygeia Health</h5>
-          <p class="card-text">
-            Medical kiosk that provides telehealth services and vitals tracking. The logo references
-            the bowl of Hygeia, the Greek and Roman goddess of hygiene.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-      <div class="card">
-        <div class="card-img-box">
-          <img class="card-img-top" src="/images/Yapa-Logo.png" alt="Yapa Logo">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">YAPA</h5>
-          <p class="card-text">
-            Hand-made all-natural pet treats crafted by adults with disabilities. The design attempts
-            to evoke feelings of comfort, care, and fun.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-      <div class="card">
-        <div class="card-img-box">
-          <img class="card-img-top" src="/images/CCG-Logo.png" alt="CCG Logo">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Camacho Consulting Group</h5>
-          <p class="card-text">
-            Simple and clean logo for a business consultant. Intended to evoke professionalism and
-            a sense of forward movement.
-          </p>
-        </div>
-      </div>
-    </div>
+      {{/with}}
+    {{/each}}
 
   </div>
-
 </div>
 
 {{> footer}}

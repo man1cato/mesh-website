@@ -3,34 +3,16 @@
     <img id="logo" src="images/mesh-logo.svg" alt="Mesh logo">
   </a>
 
-  <div class="panel panel__left">
-    <a href="/business-consulting">
+{{#each panels}}
+  {{#with this}}
+  <div class="panel {{style}}">
+    <a href="/{{link}}">
       <div class="panel-box">
         <div>
-          <h1>Business Consulting</h1>
+          <h1>{{title}}</h1>
         </div>
       </div>
     </a>
   </div>
-
-  <div class="panel panel__center">
-    <a href="/brand-identity">
-    <div class="panel-box">
-        <div>
-          <h1>Brand Identity</h1>
-        </div>
-    </div>
-  </a>
-  </div>
-
-  <div class="panel panel__right">
-    <a href="/product-development">
-      <div class="panel-box">
-        <div>
-          <h1>Product Development</h1>
-        </div>
-      </div>
-    </a>
-  </div>
-
-</div>
+  {{/with}}
+{{/each}}

@@ -20,67 +20,20 @@
   </div>
 </div>
 
-
-<div class="banner banner__1">
-  <div class="container container__approach">
-    <div>
-      <img class="banner-img__approach" src="./images/speech-bubbles.png" alt="webpage">
-    </div>
-    <div class="banner-text__approach">
-      <h3 class="banner-title">Phase I: Understand</h3>
-        <p class="description-body">
-          Our first task with any client is understanding as much as possible about their business and their offerings,
-          as well as how and why they operate in the way they do. In addition, we identify and become familiar with the
-          roles of the various stakeholders associated with the business (employees, clients, partners, etc.).
-        </p>
-    </div>
-  </div>
-</div>
-
-<div class="banner banner__2">
-  <div class="container container__approach">
-      <div>
-        <img class="banner-img__approach" src="./images/magnifying-glass.png" alt="webpage">
+{{#each banners}}
+  {{#with this}}
+    <div class="banner {{style}}">
+      <div class="container container__approach">
+        <div>
+          <img class="banner-img__approach" src="./images/{{image}}">
+        </div>
+        <div class="banner-text__approach">
+          <h3 class="banner-title">{{title}}</h3>
+            <p class="description-body">{{body}}</p>
+        </div>
       </div>
-      <div class="banner-text__approach">
-        <h3 class="banner-title">Phase II: Uncover</h3>
-        <p class="description-body">
-          Next, we uncover all the factors that contribute to the issue at hand through the use of research methods that
-          focus on the stakeholders identified in Phase I. We want to make sure that any solutions that are developed take
-          into account the needs and wants of these individuals.
-        </p>
-      </div>
-  </div>
-</div>
-
-<div class="banner banner__3">
-  <div class="container container__approach">
-    <div>
-      <img class="banner-img__approach" src="./images/thought-bubble.png" alt="webpage">
     </div>
-    <div class="banner-text__approach">
-      <h3 class="banner-title">Phase III: Conceptualize</h3>
-        <p class="description-body">
-          After the problem areas are uncovered, we then identify and conceptualize solutions for those problems. These solutions
-          are then tested and vetted until the best solutions are identified, after which, a final plan of implementation is developed.
-        </p>
-    </div>
-  </div>
-</div>
-
-<div class="banner banner__4">
-  <div class="container container__approach">
-    <div>
-      <img class="banner-img__approach" src="./images/gear.png" alt="webpage">
-    </div>
-    <div class="banner-text__approach">
-      <h3 class="banner-title">Phase IV: Realize</h3>
-        <p class="description-body">
-          In the final phase, we work together with the client to implement the developed plan / design / product / service, and
-          ensure a smooth transition through employee training and the development of standards and practices if necessary.
-        </p>
-    </div>
-  </div>
-</div>
+  {{/with}}
+{{/each}}
 
 {{> footer}}
