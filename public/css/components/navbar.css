@@ -4,7 +4,7 @@
 }
 
 .navbar-brand img {
-  width: 120px;
+  width: 110px;
 }
 
 .navbar-collapse {
@@ -35,6 +35,9 @@
 @media (max-width: 576px) {
   .dropdown-menu {
     text-align: right;
+  }
+  .navbar-brand img {
+    width: 90px;
   }
   /* .nav-item {
     margin-bottom: .5rem;
