@@ -7,6 +7,7 @@
   height: 60vh;
   background-size: cover;
   background-position: center;
+  background-color: #343A40;
   color: white;
 }
 
@@ -29,7 +30,7 @@
 }
 
 #product {
-  background-image: linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.35)), url("../../images/post-its.jpg");
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/post-its.jpg");
 }
 
 #approach {
@@ -42,7 +43,7 @@
 }
 
 #contact {
-  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../../images/gear-train.png");
+  background-image: linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.35)), url("../../images/gear-train.png");
 }
 
 @media (max-width: 768px) {

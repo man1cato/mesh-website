@@ -23,7 +23,7 @@
   padding-bottom: 30px;
 }
 
-.container__about {
+.container__col {
   flex-direction: column;
 }
 

@@ -47,6 +47,9 @@ app.get('/', (req, res) => {
 app.get('/approach', (req, res) => {
   res.render('approach.hbs', {
     pageTitle: 'Mesh | Approach',
+    headerId: "approach",
+    headerTitle: "Our Approach",
+    headerSubtitle: "How the magic happens.",
     banners: [{
       style: "banner__1",
       image: "speech-bubbles.png",
@@ -73,8 +76,11 @@ app.get('/approach', (req, res) => {
 
 app.get('/business-consulting', (req, res) => {
   res.render('business-consulting.hbs', {
-    pageTitle: 'Mesh | Business Consulting',
-    active1: 'active',
+    pageTitle: "Mesh | Business Consulting",
+    active1: "active",
+    headerId: "business",
+    headerTitle: "Business Consulting",
+    headerSubtitle: "Time is money. Gain more of both.",
     banners: [{
       style: "banner__1",
       title: "Strategy",
@@ -104,6 +110,9 @@ app.get('/brand-identity', (req, res) => {
   res.render('brand-identity.hbs', {
     pageTitle: 'Mesh | Brand Identity',
     active2: 'active',
+    headerId: "brand",
+    headerTitle: "Brand Identity",
+    headerSubtitle: "Stand out from the crowd.",
     cards: [{
       image: "DPL-Logo.png",
       title: "Deep Point Laboratories",
@@ -123,7 +132,7 @@ app.get('/brand-identity', (req, res) => {
       title: "Hygeia Health",
       body: "Medical kiosk that provides telehealth services and vitals tracking. The logo references the bowl of Hygeia, the Greek and Roman goddess of hygiene."
     },{
-      image: "Yapa-Logo.png",
+      image: "YAPA-Logo.png",
       title: "YAPA",
       body: "Hand-made all-natural pet treats crafted by adults with disabilities. The design attempts to evoke feelings of comfort, care, and fun."
     },{
@@ -138,6 +147,9 @@ app.get('/product-development', (req, res) => {
   res.render('product-development.hbs', {
     pageTitle: 'Mesh | Product Development',
     active3: 'active',
+    headerId: "product",
+    headerTitle: "Product Development",
+    headerSubtitle: "Ideas are a dime a dozen. The magic is in the execution.",
     banners: [{
       style: "banner__1",
       title: "Research",
@@ -165,13 +177,32 @@ app.get('/product-development', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.render('about.hbs', {
-    pageTitle: 'Mesh | About Us'
+    pageTitle: 'Mesh | About Us',
+    headerId: "about",
+    headerTitle: "About Us",
+    headerSubtitle: "What we stand for.",
+    values: [{
+      title: "Pursue Purpose",
+      body: "Do work that has a positive impact on the world. Avoid work that only has profit as a motive."
+    },{
+      title: "Be Fair & Honest",
+      body: "Always do right by the client. Work together to ensure that all sides are treated fairly."
+    },{
+      title: "Keep Learning",
+      body: "Every challenge is an opportunity for growth. Embrace failure and learn from it."
+    },{
+      title: "Embrace Change",
+      body: "Challenge the status quo. Learn and adapt. Don't do something just because everyone else does it; do something because it makes business sense."
+    }]
   });
 });
 
 app.get('/contact', (req, res) => {
   res.render('contact.hbs', {
-    pageTitle: "Mesh | Contact Us"
+    pageTitle: "Mesh | Contact Us",
+    headerId: "contact",
+    headerTitle: "Contact Us",
+    headerSubtitle: "Let's mesh.",
   });
 });
 

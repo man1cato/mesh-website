@@ -1,13 +1,7 @@
-<!-- NAVBAR -->
 {{> navbar}}
+{{> header}}
 
-<!-- HEADING -->
-<div id="approach" class="heading">
-    <h1>Our Approach</h1>
-    <h4>Think like a designer.</h4>
-</div>
-
-<!-- CONTENT -->
+<!-- DESCRIPTION -->
 <div class="container container__description">
   <div class="description">
     <h3 class="description-title">The Process</h3>
@@ -20,6 +14,7 @@
   </div>
 </div>
 
+<!-- CONTENT -->
 {{#each banners}}
   {{#with this}}
     <div class="banner {{style}}">
@@ -36,4 +31,5 @@
   {{/with}}
 {{/each}}
 
+{{> call-to-action}}
 {{> footer}}
