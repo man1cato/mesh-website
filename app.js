@@ -168,7 +168,7 @@ app.get('/product-development', (req, res) => {
       subtitle: "Make it real.",
       body: "Once you have a solid concept for a product or service, the next step is to build a Minimum Viable Product. That concept will be developed, tested, and refined until we have something that a customer is willing to pay for.",
       offerings: "Prototyping - Full-Stack Development - CAD Design",
-      image: "bicycle.png"
+      image: "unicycle.png"
     }]
   });
 });
