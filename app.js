@@ -1,6 +1,6 @@
 const express = require('express');
 const hbs = require('express-handlebars');
-const sass = require('node-sass');
+// const sass = require('node-sass');
 const port = process.env.PORT || 3000;
 const path = require('path');
 
@@ -20,8 +20,6 @@ app.set('view engine', 'hbs');
 
 //MIDDLEWARE
 app.use(express.static(__dirname + '/public'));
-
-
 
 //ENDPOINTS
 app.get('/', (req, res) => {
