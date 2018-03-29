@@ -192,7 +192,7 @@ app.get('/about', (req, res) => {
       body: "Every challenge is an opportunity for growth. Embrace failure and learn from it."
     },{
       title: "Embrace Change",
-      body: "Challenge the status quo. Learn and adapt. Don't do something just because everyone else does it; do something because it makes business sense."
+      body: "Challenge the status quo. Learn and adapt. Don't do something just because everyone else does it; do it because it makes sense."
     }]
   });
 });
