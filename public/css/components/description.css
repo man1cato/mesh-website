@@ -15,7 +15,7 @@
 }
 
 .description-title {
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
   text-align: center;
 }
 
@@ -34,6 +34,7 @@
   }
   .description-title {
     text-align: center;
+    margin-bottom: 1.4rem;
   }
   .description-body {
     margin: 10px 0 0 0;
