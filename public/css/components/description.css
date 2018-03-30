@@ -6,12 +6,10 @@
 }
 
 .description img {
-  align-self: center;
+  display: block;
+  margin: 2rem auto 4rem auto;
   height: 20rem;
   width: auto;
-  border: .5rem solid #FF3F00;
-  border-radius: 50%;
-  margin-bottom: 2.5rem;
 }
 
 .description-title {
@@ -22,9 +20,6 @@
 @media (max-width: 992px) {
   .description {
     padding: 40px 0;
-  }
-  .description img {
-    height: 15rem;
   }
 }
 
