@@ -115,12 +115,12 @@ app.get('/brand-identity', (req, res) => {
       image: "DPL-Logo.png",
       title: "Deep Point Laboratories",
       body: "Cybersecurity firm and community where experts and academics can come together to share knowledge within the industry. The design is meant to evoke feelings of intrigue, curiosity, contemplation, and knowledge.",
-      link: "https://drive.google.com/file/d/10tW2Mx9bVS_v570wI25om0kTzIoSTxb_/view"
+      link: "https://drive.google.com/open?id=1crkXsI-1w89zawZVjT2ySzOdCXucghbQ"
     },{
       image: "BTB-Logo.png",
       title: "Beyond The Book",
       body: "An educational company focused on providing test prep materials to medical professionals in the orthotics and prosthetics industry. The logo suggests both a hand and an open book - representing the trade as well as the services provided.",
-      link: "https://drive.google.com/file/d/0B3bHUpUC0RGzU0pfUkNrempEeUk/view"
+        link: "https://drive.google.com/open?id=1-_hei9sr2jpEw9YschIWwuqJyydHHY2t"
     },{
       image: "FlexNut-Logo.png",
       title: "Flexible Nutrition",
